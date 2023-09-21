@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+  <html lang="">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Matter JS BoilerPlate</title>
+      <style> body {padding: 0; margin: 0;} </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+      <script src="p5.play.js"></script>
+
+      <script src="game.js"></script>
+      <script src="form.js"></script>
+      <script src="player.js"></script>
+
+      <!-- <script src="form2.js"></script> -->
+
+
+<link rel="stylesheet" href="style.css">
+
+      <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+ const firebaseConfig = {
+  apiKey: "AIzaSyCvM_EU216mBAcphwCtMJlJLcHdh56-A9E",
+  authDomain: "velozes-e-espaciais.firebaseapp.com",
+  databaseURL: "https://velozes-e-espaciais-default-rtdb.firebaseio.com",
+  projectId: "velozes-e-espaciais",
+  storageBucket: "velozes-e-espaciais.appspot.com",
+  messagingSenderId: "780578569062",
+  appId: "1:780578569062:web:d646773ce8e32d6277a6a7",
+  measurementId: "G-4G07CZE5ZN"
+};
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
